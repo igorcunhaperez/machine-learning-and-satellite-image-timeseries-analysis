@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glossário de Sensoriamento Remoto e Machine Learning</title>
+  <meta name="description" content="Glossário colaborativo com termos de Sensoriamento Remoto, Machine Learning, Séries Temporais e Métricas." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Glossário técnico</p>
+      <h1>Glossário de Sensoriamento Remoto e Machine Learning</h1>
+      <p class="subtitle">
+        Um glossário simples, filtrável por tags e organizado em ordem alfabética.
+      </p>
+
+      <div class="search-box" role="search">
+        <label for="searchInput">Buscar termo</label>
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="Ex.: matriz de confusão, NDVI, Random Forest..."
+          autocomplete="off"
+        />
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <div class="panel__header">
+        <div>
+          <h2>Filtrar por tags</h2>
+          <p>Selecione uma categoria para visualizar termos relacionados.</p>
+        </div>
+        <span id="termCounter" class="counter">0 termos</span>
+      </div>
+
+      <div id="tagFilters" class="tag-filters" aria-label="Filtros por tags"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel__header">
+        <div>
+          <h2>Termos</h2>
+          <p>Os resultados são atualizados automaticamente conforme a busca e os filtros.</p>
+        </div>
+      </div>
+
+      <div id="glossaryList" class="glossary-list"></div>
+
+      <div id="emptyState" class="empty-state" hidden>
+        <h3>Nenhum termo encontrado</h3>
+        <p>Tente buscar por outra palavra ou remover o filtro selecionado.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Feito com HTML, CSS e JavaScript. Hospedado gratuitamente com GitHub Pages.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
