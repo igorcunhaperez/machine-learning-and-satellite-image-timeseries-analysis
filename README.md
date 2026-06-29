@@ -16,5 +16,4 @@ Ansible é uma ferramenta de [Código Aberto](#código-aberto) para automação 
 
 ## B
 ### [Block Storage](https://www.digitalocean.com/community/tutorials/digitalocean-community-glossary)
-Um serviço de armazenamento em bloco ou block storage funciona como um disco rígido fornecido pela rede. Os desenvolvedores podem usar serviços de armazenamento em bloco para armazenar arquivos, combinar vários dispositivos em uma matriz RAID ou configurar um banco de dados para gravar diretamente no dispositivo.
-
+A block storage service functions like a hard drive provided over a network. Developers can use block storage services to store files, combine multiple devices into a RAID array, or configure a database to write directly to the device.
